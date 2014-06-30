@@ -40,6 +40,8 @@ class DogHTMLPage
   # end
 
   # attempt with .map and a wrapper CONFIRMED WORKING
+  # alternate option would be to concat the <ul></ul> on line 55 like:
+  # "<ul>#{@array_of_hashes.join}</ul>"
 
   def wrapper(content)
     "<ul>#{content}</ul>"
